@@ -4,6 +4,6 @@ export function formatDate (dateString) {
   return date.toLocaleString('en-US', {
     year: 'numeric',
     month: 'long',
-    day: 'numeric',
+    day: 'numeric'
   })
 }
